@@ -1,29 +1,37 @@
-# README #
+# FileServer #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+### Introduction ###
 
-### What is this repository for? ###
+FileServer is a file storage service. There are no user accounts or authentication — the files are
+accessible to anybody. Author: Emma Belinda Semilarski
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+### Technologies used ###
+* Java 17
+* Spring Boot
+* Hibernate H2 database
+* Postman
 
-### How do I get set up? ###
+### Features ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* Creating a directory
+* Creating and uploading a file
+* Listing directory contents
+* Downloading a file
+* Removing a file
+* Removing a directory
 
-### Contribution guidelines ###
+### Installation guide ###
 
-* Writing tests
-* Code review
-* Other guidelines
+* Clone this repository [here](https://emmasemilarski@bitbucket.org/emmasemilarski/fileserver.git)
+* Run the app with gradle bootRun command
 
-### Who do I talk to? ###
+# REST API #
 
-* Repo owner or admin
-* Other community or team contact
+The REST API is described below. 
+
+### Create a directory ###
+### Create and upload a file ###
+### List directory contents ###
+### Downloading a file ###
+### Removing a file ###
+### Removing a directory ###
